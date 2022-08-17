@@ -203,7 +203,7 @@ while respuesta != 'no':
   
   probabilidad = modelo.predict_proba(variables)
   porcentaje = round(probabilidad[0][1]*100, 2)
-  print(f'\nLa probabilidad que tanga una enfermedad cardíaca es del {porcentaje}%')
+  print(f'\nLa probabilidad que tenga una enfermedad cardíaca es del {porcentaje}%')
 
-  respuesta = input('Desea volver a llenar el formulario? si/no: ').lower()
+  respuesta = input('¿Desea volver a llenar el formulario? si/no: ').lower()
 
